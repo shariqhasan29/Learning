@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 25px 0px 25px;
+
+}
+.navbar ul li a{
+    padding: 0 9px;
+    font-size: .75rem;
+    color: rgba(0, 0, 0, 0.815);
+    border-right: 1px solid black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar ul li:last-child a{
+    margin-left: 150px;
+    border: none;
+    text-decoration: none;
+}
+.navbar li:nth-child(13) a{
+    border: none;
+    text-decoration: none;
+
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo img{
+    width: 175px;
+    height: 100px;
+}
+.phone a{
+    text-decoration: none;
+    color: black;
+}
+span{
+    margin-left: 10px;
+}
+.search input{
+
+    padding: 5px;
+    width: 400px;
+
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.content1{
+    background-color: rgba(83, 83, 83, 0.089);
+    position: relative;
+    top: 225px;
+    z-index: -1;
+
+
+
+}
+.items ul{
+    display: flex;
+    list-style: none;
+    background-color: whitesmoke;
+    padding: 25px;
+}
+.items ul li{
+    margin-right: 20px;
+    font-size: .9rem;
+    color: rgb(0, 0, 51);
+    cursor: pointer;
+
+}
+.items ul li:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 40px;
+
+
+
+}
+.items ul li:last-child{
+    margin-left: 130px;
+    font-size: inherit;
+}
+.items ul li button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: .9rem;
+    cursor: pointer;
+}
+.items ul li button:first-child{
+    background-color: rgb(0, 255, 255);
+    color: white;
+
+}
+.items ul li button:nth-child(2){
+    background-color: rgb(169, 218, 238);
+    color: blue;
+
+}
+.items ul li button:last-child{
+    background-color: rgb(4, 3, 66);
+    color: gold;
+
+}
+
+.product{
+
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 10px;
+
+
+}
+.product .box{
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.box img{
+    width: 200px;
+    padding: 5px;
+    border-radius: inherit;
+}
+.box p{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.541);
+   
+}
+.box p a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+
+}
+.coverimg img{
+    width: 100%;
+}
+.scroll{
+    margin-top: 5px;
+
+}
+.scroll img{
+    width: 100%;
+
+}
+.banner img{
+    width: 100%;
+}
+.heading{
+    margin-top: 300px;
+    text-align: center;
+}
+
+.heading img{
+    width: 100%;
+    margin-top: 50px;
+}
+.heading1{
+    margin-top: 50px;
+    text-align: center;
+}
+.heading1 img{
+    width: 100%;
+    margin-top: 50px;
+}
+.banner img{
+    margin-top: 50px;
+    width: 100%;
+
+}
+
+.feedback{
+    background-color: seashell;
+    margin-top: 30px;
+    padding: 50px;
+    text-align: center;
+}
+
+.utube iframe{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.footer{
+    background-color: rgba(6, 6, 65, 0.959);
+    color: whitesmoke;
+}
+.about h3{
+    padding: 40px 50px 0px 50px;
+    font-size: 1.7rem;
+}
+.about p{
+    margin: 20px 50px;
+}
+.footer-cols{
+    display: flex;
+    padding: 40px 50px 0px 50px;
+
+}
+.footer-cols ul{
+    list-style: none;
+    padding: 10px;
+    margin-right: 40px;
+}
+.footer-cols ul li:first-child{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+.footer-cols ul li{
+    padding: 5px;
+
+}
+.footer-cols ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.badge a img{
+    width: 200px;
+    height: 80px;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+.badge p{
+    text-align: center;
+    margin-left: 460px;
+}
+.line{
+    margin: 20px 50px;
+}
+.footernav, .footernav ul{
+   display: flex;
+
+   border: 1 px solid black;
+
+
+}
+.footernav ul li{
+    list-style-type: none;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.footernav ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.footernav ul li:nth-child(4){
+    list-style-type: none;
+    margin-left: 600px;
+    margin-bottom: 30px;
+}
+.footernav ul li:nth-child(5){
+    list-style-type: none;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+.footernav ul li:nth-child(6){
+    list-style-type: none;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+.footernav ul li:nth-child(7){
+    list-style-type: none;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+.footernav ul li:last-child{
+    list-style-type: none;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-top: -20px;
+    font-size: 2rem;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    color: rgba(6, 6, 65, 0.959);
+    border: 2px solid white;
+    border-radius: 100px;
+    background-color: white;
+    padding: 7px;
+
+
+}
+/* ---------------------Do More------------------------- */
+
+ .ourPurpose{
+    background-color: rgba(6, 6, 65, 0.959);
+    position: relative;
+    top: 225px;
+    z-index: -1;
+    color: white;
+}
+.ourPurpose h3{
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    
+}
+
+.flex{
+    display: flex;
+}
+.flex h1{
+    font-size: 4rem;
+    padding: 25px;
+    
+}
+.flex p{
+    font-size: 2rem;
+    padding: 25px;
+
+}
+.flex iframe{
+    padding: 25px;
+    margin: 25px;
+}
+.ourvisionDomore img{
+    width: 100%;
+    margin-top: 230px;
+}
+.focus{
+    text-align: center;
+    margin: 30px;
+    color: rgba(1, 1, 63, 0.945);
+    
+    
+}
+.focus h4{
+    font-size: 2rem;
+    padding: 10px;
+    margin-bottom: 25px;
+
+}
+.focus h1{
+    font-size: 3rem;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.focus p{
+    font-size: 2rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin: 0 150px 10px 150px;  
+
+}
+.gridimg img, .more img, .lastimg img{
+    width: 100%;
+   
+}
+.gridimg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 50px;
+}
+.last{
+    background-color: rgba(0, 255, 255, 0.075);
+    padding: 50px 0px;
+}
+.more{
+    margin: 0px 100px;
+    
+    
+}
+.lastimg{
+    margin: 10px 200px ;
+    
+}

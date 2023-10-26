@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.head1{
+    background-color: #001e73;
+    padding: 10px;
+    text-align: center;
+    
+}
+.head1 a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.head2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 7fr 1fr 1fr;
+    
+    background-color: #0847a0;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    
+    
+    
+}
+.head2 .logo img{
+    width: 100%;
+    
+   
+}
+.head2 a{
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+}
+.head2 input{
+    font-size: 1.2rem;
+    padding: 10px;
+    width: 500px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+.five{
+    display: flex;
+    
+}
+.five details{
+    margin-left: 10px;
+    padding: 10px;
+    font-size: .8rem;
+   
+}
+ details a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.five a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: .8rem;
+}
+.head3{
+    display: flex;
+    color: white;
+    background-color: #0847a0;
+    margin-top: .4px;
+}
+.four details{
+    display: inline;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: .9rem;
+    font-weight: bold;   
+
+}
+.four details:first-child{
+    margin-left: 150px;
+}
+.flex{
+    display: flex;
+}
+.sale{
+    margin: 20px;
+}
+.sale img{
+    width: 45vw;
+    height: 550px;
+    border: 1px solid rgba(0, 0, 0, 0.61);
+}
+.recommended{
+    width: 50vw;
+    height: 250px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.61);
+    margin: 20px 20px 20px 0px;
+    
+    
+}
+.recommended h3{
+    margin-top: 10px;
+}
+.flex-box{
+    display: flex;
+    
+    padding: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    
+}
+.flex-box img{
+    width: 150px;
+}
+.box{
+    
+    display: flex;
+    width: 50vw;
+    height: 275px;
+    
+    margin: 50px 20px 20px -10px;
+    
+    
+}
+.box1, .box2{
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.61);
+    
+    
+}
+.box2{
+    margin-left: 50px;
+}
+.box2 .topdealimg img{
+    width: 150px;
+}
+.box2 .topdealimg div{
+    text-align: center;
+    margin-top: -10px;
+}
+.box1 button, .box2 button{
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: #001e73;
+    color: white;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+.box1 .clearence h3{
+    text-align: center;
+    font-size: 2rem;
+    margin: 30px 0px;
+}
+.link{
+    margin-top: 20px;
+}
+.flex-box div div {
+    padding: 10px;
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+.viewed-navbar{
+    padding: 10px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.61) ;
+    margin: 0px 20px;
+
+}
+.viewed-navbar a{
+    
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: black;
+    text-underline-offset: 15px;
+    
+}
+.Viewed-items{
+    padding: 10px 20px;
+}
+.Viewed-items a{
+    text-decoration: none;
+}
+.airpods{
+    border: 1px solid rgba(0, 0, 0, 0.61);
+    margin: 0px 20px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+}
+.laptop{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 40px 20px 20px 20px;
+    gap: 10px;
+}
+.bestbuy{
+    padding: 10px;
+
+}
+.bestbuy .logo1 img{
+    width: 150px;
+
+}
+.bestbuy h4{
+    margin: 30px 0px;
+    font-size: 2rem;
+    text-wrap: 100px;
+}
+.bestbuy a{
+    
+    text-decoration: none;
+}
+.a{
+    margin-top: 20px;
+}
+.laptop-sale{
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.61);
+}
+.laptop-sale div{
+    text-align: center;
+}
+.laptop-sale h5{
+    text-align: start;
+    font-size: 2rem;
+    padding: 10px;
+    
+}
+.laptop-sale p{
+    text-align: start;
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    margin-bottom: -20px;
+    
+}
+
+.laptop-sale .MacBook{
+    margin-top: 10px;
+
+}
+button{
+    margin-top: 50px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px;
+    color: #001e73;
+    border: 2px solid #001e73;
+}
+.ad-flex{
+    display: flex;
+}
+.adImg img{
+    width: 500px;
+    margin: 40px;
+}
+.ad-flex .advertisement{
+    margin: 40px;
+    border-top: 3px solid rgba(0, 0, 0, 0.61);
+    width: 700px;
+    text-align: center;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 30px;
+}
+.deals-inspired h2{
+    margin: 0px 30px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.61) ;
+    padding: 15px;
+
+}
+.footer{
+    background-color: beige;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px;
+    
+}
+.visit a{
+    text-decoration: none;
+    
+}
+.visit div{
+    margin-top: 20px;
+}
+.grid-footer{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    padding: 30px;
+}
+.grid-footer ul li{
+    list-style: none;
+    padding: 10px;
+}
+.grid-footer ul li:first-child{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.big{
+    display: flex;
+}
+.form{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin: 40px;
+}
+@media(max-width:376px){
+   
+
+}
+/* @media (max-width: 770px) {
+    
+    .head1{
+        background-color: #001e73;
+        padding: 10px;
+        text-align: center;
+        font-size: .6rem;
+    }
+    .head2 h3{
+        font-size: 1rem;
+        color: white;
+    }
+    .head2 input{
+        font-size: 1rem;
+        width: 300px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+    }
+}
+@media (max-width:426px) {
+    .head2 h3{
+        font-size: .7rem;
+        color: white;
+    }
+    .head2 input{
+        font-size: .5rem;
+        width: 200px;
+        height: 20px;
+        border: none;
+        border-radius: 5px;
+    }
+}
+@media (min-width:2558px) {
+     
+    .head1{
+        background-color: #001e73;
+        padding: 10px;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    .head2 h3{
+        font-size: 3rem;
+        color: white;
+    }
+    .head2 input{
+        font-size: 2rem;
+        width: 900px;
+        height: 70px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    
+} */

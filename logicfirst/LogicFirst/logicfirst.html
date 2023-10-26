@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cverter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3 class="heading">Cm to Inches</h3>
+        <div class="input">
+            <input type="text" id="input" placeholder="type your cm value">
+        </div>
+        <div class="btn">
+            <button type="submit" onclick="convert()">convert</button>
+        </div>
+        <div id="result">
+
+        </div>
+    </div>
+
+    <script>
+        function convert(){
+            let cmVal = Number(document.getElementById('input').value)
+            let inchVal = cmVal/2.54
+            let result = document.getElementById('result')
+            result.innerHTML = inchVal
+        }
+    </script>
+    
+</body>
+</html>
